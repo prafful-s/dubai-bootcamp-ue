@@ -1,5 +1,10 @@
 {
   "mappings": [
-    "/:/"
+    "/content/wknd-fly/:/",
+    "/content/wknd-fly/configuration:/.helix/config.json",
+    "/content/wknd-fly/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/wknd-fly/"
   ]
 }
