@@ -212,6 +212,21 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "textPosition",
+        "label": "Text Position",
+        "options": [
+          {
+            "name": "top",
+            "value": "top"
+          },
+          {
+            "name": "bottom",
+            "value": "bottom"
+          }
+        ]
       }
     ]
   }
