@@ -7,6 +7,9 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .hero h1 {
@@ -30,9 +33,8 @@
   height: 100%;
 }
 
-.hero-wrapper .hero.bottom :nth-child(2) {
-  position: absolute;
-  bottom: 0;
+.hero-wrapper .hero > div:nth-child(2) {
+  z-index: 1;
 }
 
 @media (width >= 900px) {
