@@ -30,6 +30,11 @@
   height: 100%;
 }
 
+.hero-wrapper .hero.bottom :nth-child(2) {
+  position: absolute;
+  bottom: 0;
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
