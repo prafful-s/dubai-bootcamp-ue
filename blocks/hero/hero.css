@@ -7,6 +7,10 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
+}
+
+/* Flexbox behavior only for hero with bottom class */
+.hero.bottom {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -33,7 +37,9 @@
   height: 100%;
 }
 
-.hero-wrapper .hero > div:nth-child(2) {
+/* Override positioning for hero with bottom class */
+.hero-wrapper .hero.bottom > div:nth-child(2) {
+  position: static;
   z-index: 1;
 }
 
